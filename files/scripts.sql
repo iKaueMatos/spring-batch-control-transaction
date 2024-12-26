@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS person;
+CREATE TABLE person(id INT, name VARCHAR(500),email VARCHAR(500),birthDate VARCHAR(500),age INT, PRIMARY KEY(id));
